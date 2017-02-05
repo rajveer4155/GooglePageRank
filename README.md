@@ -5,14 +5,14 @@ Google Page Rank Algorithm(1998 version) implementation in Java
 $ java GooglePageRank <iterations> <initialvalue> <filenameContainingGraph>
 
 
-## Arguments Information
+### Arguments Information
 
-### A.) Iterations specify to run the ’algorithm’ for a fixed number of iterations or for a fixed errorrate (an alias for iterations); 
+#### A.) Iterations specify to run the ’algorithm’ for a fixed number of iterations or for a fixed errorrate (an alias for iterations); 
 1. An iterations equal to 0 corresponds to a default errorrate of 10^−5 . 
 2. A -1, -2, ...., -6 etc for iterations becomes an errorrate of 10^−1 , 10^−2, . . . , 10^−6 respectively. 
 
 
-### B.) Initialvalue sets the intial vector values for the algorithm.It can take any of the value  from the set {-2, -1, 0, 1}. 
+#### B.) Initialvalue sets the intial vector values for the algorithm.It can take any of the value  from the set {-2, -1, 0, 1}. 
 
 1. If its -2, the hub/authority values are initialized as 1/(sqrt(n)), for all the nodes, where n is the number of vertices.
 
@@ -22,7 +22,7 @@ $ java GooglePageRank <iterations> <initialvalue> <filenameContainingGraph>
 
 4. If its 1, the hub/authority values are initialized as 1 for all the vertices. 
 
-### filenameContainingGraph contains the representation of a graph.
+#### C.) filenameContainingGraph contains the representation of a graph.
 
 1. The first line represents the number of vertices (n) of the graph.
 
