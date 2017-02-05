@@ -14,13 +14,13 @@ $ java GooglePageRank <iterations> <initialvalue> <filenameContainingGraph>
 
 #### B.) Initialvalue sets the intial vector values for the algorithm.It can take any of the value  from the set {-2, -1, 0, 1}. 
 
-1. If its -2, the hub/authority values are initialized as 1/(sqrt(n)), for all the nodes, where n is the number of vertices.
+1. If its -2, the pagerank values are initialized as 1/(sqrt(n)), for all the nodes, where n is the number of vertices.
 
-2. If its -1, the hub/authority values are initialized as 1/(n), for all the nodes, where n is the number of vertices.
+2. If its -1, the pagerank values are initialized as 1/(n), for all the nodes, where n is the number of vertices.
 
-3. If its 0, the hub/authority values are initialized as 0 for all the vertices.
+3. If its 0, the pagerank values are initialized as 0 for all the vertices.
 
-4. If its 1, the hub/authority values are initialized as 1 for all the vertices. 
+4. If its 1, the pagerank values are initialized as 1 for all the vertices. 
 
 #### C.) filenameContainingGraph contains the representation of a graph.
 
