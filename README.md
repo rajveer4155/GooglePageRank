@@ -1,7 +1,7 @@
-# GooglePageRank
+## GooglePageRank
 Google Page Rank Algorithm(1998 version) implementation in Java
 
-## Usage
+### Usage
 $ java GooglePageRank <iterations> <initialvalue> <filenameContainingGraph>
 
 
